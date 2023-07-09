@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --main-color: #fd6e0a;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--main-color);
+  border: 0;
+  border: 1px solid var(--main-color);
+  padding: 18px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  transition: 0.3s ease-in;
+}
+/* header start  */
+
+#header {
+  background-color: #fff8f3;
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 570px;
+}
+#developer{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 70px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 230px;
+}
+.logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.logo span {
+  color: var(--main-color);
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+.navbar ul li a:hover {
+  color: var(--main-color);
+  transition: 0.1s;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* main container  */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 230px;
+  padding-right: 40px;
+}
+#pro-pic {
+  width: 400px;
+}
+.main-info h3 {
+  color: #474747;
+  font-size: 45px;;
+  font-weight: 600;
+}
+.main-info h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.main-info p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  width: 585px;
+}
+.contact-btn{
+    margin-top: 30px;
+    display: flex;
+}
+.contact-btn .btn-primary{
+    margin-right: 50px;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+}
+.contact-btn .btn-primary img{
+    margin-right: 10px;
+}
+.btn-2{
+    background-color: #fff;
+    color: var(--main-color);
+    padding: 18px 23px;
+}
+.btn-2:hover{
+    color: #fff;
+    background-color: var(--main-color);
+   
+}
