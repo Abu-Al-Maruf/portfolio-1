@@ -31,16 +31,16 @@ body {
   background-color: #fff8f3;
   position: relative;
   height: 100vh;
-  background-image: url('../images/header_bg.png');
+  background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 570px;
 }
-#developer{
-    position: absolute;
-    top: 50px;
-    left: 60px;
-    width: 70px;
+#developer {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  width: 70px;
 }
 .navbar {
   display: flex;
@@ -88,7 +88,7 @@ body {
 }
 .main-info h3 {
   color: #474747;
-  font-size: 45px;;
+  font-size: 45px;
   font-weight: 600;
 }
 .main-info h1 {
@@ -105,26 +105,64 @@ body {
   margin-top: 20px;
   width: 585px;
 }
-.contact-btn{
-    margin-top: 30px;
-    display: flex;
+.contact-btn {
+  margin-top: 30px;
+  display: flex;
 }
-.contact-btn .btn-primary{
-    margin-right: 50px;
-    padding: 18px 25px;
-    display: flex;
-    align-items: center;
+.contact-btn .btn-primary {
+  margin-right: 50px;
+  padding: 18px 25px;
+  display: flex;
+  align-items: center;
 }
-.contact-btn .btn-primary img{
-    margin-right: 10px;
+.contact-btn .btn-primary img {
+  margin-right: 10px;
 }
-.btn-2{
-    background-color: #fff;
-    color: var(--main-color);
-    padding: 18px 23px;
+.btn-2 {
+  background-color: #fff;
+  color: var(--main-color);
+  padding: 18px 23px;
 }
-.btn-2:hover{
-    color: #fff;
-    background-color: var(--main-color);
-   
+.btn-2:hover {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+/* about section  */
+
+#about-section {
+  width: 70%;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px auto;
+  text-align: center;
+  padding: 130px 60px;
+}
+#about-section h2{
+  color:#181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+#about-section .about-des{
+  color:#757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.about-details{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.about-box p{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-box h4{
+  color: #474747;
+  font-size: 18px;
 }
