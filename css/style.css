@@ -85,6 +85,11 @@ body {
   padding-left: 230px;
   padding-right: 40px;
 }
+.main-img{
+  position: absolute;
+  right: 30px;
+  bottom: -5px;
+}
 #pro-pic {
   width: 400px;
   margin-top: 1px;
