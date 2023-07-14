@@ -85,7 +85,7 @@ body {
   padding-left: 230px;
   padding-right: 40px;
 }
-.main-img{
+.main-img {
   position: absolute;
   right: 30px;
   bottom: -5px;
@@ -111,7 +111,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin-top: 20px;
-  width: 585px;
+  width: 55%;
 }
 .contact-btn {
   margin-top: 30px;
@@ -123,11 +123,11 @@ body {
   display: flex;
   align-items: center;
 }
- .btn-primary .fa{
+.btn-primary .fa {
   margin-right: 10px;
   text-align: center;
 }
-.btn-primary .fa-download{
+.btn-primary .fa-download {
   margin-bottom: 3px;
 }
 
@@ -210,9 +210,9 @@ body {
   width: 265px;
   height: 375px;
 }
-.skill-box:hover{
+.skill-box:hover {
   transform: translateY(-5px);
-  transition: .3s;
+  transition: 0.3s;
 }
 .skill-box img {
   width: 45px;
@@ -243,10 +243,10 @@ body {
   justify-content: space-between;
   margin-top: 110px;
 }
-.resume-container hr{
+.resume-container hr {
   width: 95%;
   border: 0;
-  border-top: 1px solid #D1D1D1;
+  border-top: 1px solid #d1d1d1;
   margin-top: 30px;
 }
 #resume .about-heading {
@@ -257,8 +257,8 @@ body {
   font-size: 30px;
   font-weight: 700;
 }
-.resume-box{
- width: 80%;
+.resume-box {
+  width: 80%;
 }
 .resume-box h4 {
   color: #474747;
@@ -281,80 +281,80 @@ body {
   line-height: 28px;
   margin-top: 20px;
 }
-.resume-btn{
+.resume-btn {
   margin: 0 auto;
   margin-top: 70px;
   display: flex;
 }
 
 /* footer  */
-#footer{
+#footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 130px 100px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
-.footer-left{
+.footer-left {
   flex-basis: 50%;
   align-self: start;
 }
-.footer-right{
+.footer-right {
   flex-basis: 50%;
 }
 .footer-left h2,
-.footer-right h2{
-  color:  #181818;
+.footer-right h2 {
+  color: #181818;
   font-size: 35px;
   font-weight: 700;
 }
-.footer-left p{
-  color:  #474747;
+.footer-left p {
+  color: #474747;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   margin-top: 35px;
 }
-#footer .social-icons{
+#footer .social-icons {
   margin-top: 30px;
 }
-#footer .social-icons img{
+#footer .social-icons img {
   width: 24px;
   margin-right: 24px;
   cursor: pointer;
 }
-#form{
+#form {
   margin-top: 45px;
 }
-#form input{
+#form input {
   display: block;
   margin-bottom: 24px;
 }
 #form input[type="text"],
-#form input[type="email"]{
+#form input[type="email"] {
   width: 460px;
   height: 63px;
   padding: 18px 30px;
   border: 0;
   border-radius: 5px;
-  color:  #757575;
+  color: #757575;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
 }
 #form input:focus,
-#form textarea:focus{
+#form textarea:focus {
   outline: none;
   border: 1px solid var(--main-color);
 }
-#form textarea{
+#form textarea {
   width: 460px;
   height: 180px;
   border-radius: 5px;
-  background:  #FFF;
+  background: #fff;
   border: 0;
   padding: 18px 30px;
-  color:  #757575;
+  color: #757575;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -371,9 +371,98 @@ body {
   cursor: pointer;
   margin-top: 24px;
 }
-#form input[type="submit"]:hover{
+#form input[type="submit"]:hover {
   background-color: #fff;
   color: var(--main-color);
   border: 1px solid var(--main-color);
-  transition: .3s;
+  transition: 0.3s;
+}
+
+/* media query  */
+/* media query  */
+/* media query  */
+
+@media screen and (max-width: 576px) {
+
+  #header{
+    background-image: none;
+  }
+  .main-container,
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar ul {
+    margin-top: 30px;
+}
+  #pro-pic {
+    width: 190px;
+  }
+  .main-img{
+    right: 8px;
+  }
+  #developer {
+    display: none;
+  }
+  .navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  .main-info h1 {
+    font-size: 40px;
+  }
+  .main-info h3 {
+    font-size: 30px;
+  }
+  .main-info p {
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .contact-btn {
+    flex-direction: column-reverse;
+    width: 215px;
+  }
+  .btn-primary {
+    font-size: 16px;
+  }
+  .contact-btn .btn-primary {
+    margin-right: 60px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  primary .fa-download {
+    margin-bottom: 3px;
+    margin-right: 6px;
+}
+  .btn-primary.btn-2 {
+    margin-bottom: 10px;
+    width: 125px;
+  }
+.contact-btn {
+  margin-top: 50px;
+
+}
+.main-info{
+  margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
