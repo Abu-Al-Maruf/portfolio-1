@@ -378,6 +378,7 @@ body {
   transition: 0.3s;
 }
 
+
 /* media query  */
 /* media query  */
 /* media query  */
@@ -385,6 +386,15 @@ body {
 @media screen and (max-width: 576px) {
   #header {
     background-image: none;
+  }
+  .resume-box h4{
+    font-size: 23px;
+  }
+  .resume-box span{
+    font-size: 17px;
+  }
+  .resume-box p{
+    font-size: 15px;
   }
   .main-container,
   .navbar {
@@ -403,6 +413,9 @@ body {
   }
   .main-img {
     right: 8px;
+  }
+  .experience{
+    margin-top: 20px;
   }
   #developer {
     display: none;
