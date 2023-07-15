@@ -383,8 +383,7 @@ body {
 /* media query  */
 
 @media screen and (max-width: 576px) {
-
-  #header{
+  #header {
     background-image: none;
   }
   .main-container,
@@ -397,11 +396,11 @@ body {
   }
   .navbar ul {
     margin-top: 30px;
-}
+  }
   #pro-pic {
     width: 190px;
   }
-  .main-img{
+  .main-img {
     right: 8px;
   }
   #developer {
@@ -440,29 +439,127 @@ body {
   primary .fa-download {
     margin-bottom: 3px;
     margin-right: 6px;
-}
+  }
   .btn-primary.btn-2 {
     margin-bottom: 10px;
     width: 125px;
   }
-.contact-btn {
-  margin-top: 50px;
+  .contact-btn {
+    margin-top: 50px;
+  }
+  .main-info {
+    margin-top: 35px;
+  }
+  #about-section {
+    margin: 70px auto;
+  }
+  #about-section {
+    width: 90%;
+    border-radius: 5px;
+    padding: 60px 20px;
+}
+.about-details{
+  flex-wrap: wrap;
+}
+.about-details .about-box{
+  margin-top: 30px;
+}
+.about-des {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+#skill-section {
+  width: 90%;
+  margin: 100px auto;
+}
+.skill-box{
+  text-align: center;
+}
+.skill-container{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 }
-.main-info{
-  margin-top: 35px;
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+  .navbar {
+    padding: 35px 100px;
+  }
+  .main-container {
+    padding: 0px 100px;
+  }
+  #developer {
+    left: 15px;
+  }
+  .main-info h3 {
+    font-size: 40px;
+  }
+  .main-info h1 {
+    font-size: 50px;
+  }
+  .main-info p {
+    font-size: 17px;
+  }
+  #pro-pic {
+    width: 330px;
+  }
+  #header {
+    background-size: 400px;
+  }
+  .btn-primary {
+    font-size: 16px;
+  }
+  .contact-btn .btn-primary {
+  margin-right: 15px;
+  }
+  .main-img{
+    right: 10px;
+  }
+
 }
 
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+  .navbar {
+    padding: 40px 150px;
+  }
+  .main-container {
+    padding: 0px 150px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  #developer {
+    left: 40px;
+  }
+  .main-info h3 {
+    font-size: 40px;
+  }
+  .main-info h1 {
+    font-size: 60px;
+  }
+  .main-info p {
+    font-size: 16px;
+  }
+  #pro-pic {
+    width: 300px;
+  }
+  #header {
+    background-size: 400px;
+  }
+  .btn-primary {
+    font-size: 16px;
+  }
+  .contact-btn .btn-primary {
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .contact-btn {
+    display: inline-block;
+    flex-direction: column;
+  }
 }
